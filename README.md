@@ -19,9 +19,9 @@ Follow these steps below to run this
 
 - Go to _line 11_, change it to:
 
--- ```browser = webdriver.Edge("msedgedriver.exe")``` if you want use Microsoft Edge.
+    -- ```browser = webdriver.Edge("msedgedriver.exe")``` if you want use Microsoft Edge.
 
--- ```browser = webdriver.Chrome("chromedriver.exe")``` if you want use Google Chrome.
+    -- ```browser = webdriver.Chrome("chromedriver.exe")``` if you want use Google Chrome.
 
 - Fill these fields with proper credentials and parameters inside ```bot.py``` file.
 
