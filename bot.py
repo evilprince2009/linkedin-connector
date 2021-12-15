@@ -2,12 +2,12 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-url = "https://www.linkedin.com"
+
 mail = "your_nice_username"
 key = "your_secret_pass"
 search_param = "search_term"
 
-
+url = "https://www.linkedin.com"
 searcher_url = "https://www.linkedin.com/search/results/people/?geoUrn=%5B%22102105699%22%2C%22101620260%22%2C%22101174742%22%2C%22105117694%22%2C%22106693272%22%2C%22103819153%22%2C%22105490917%22%2C%22100456013%22%2C%22105072130%22%2C%22102264497%22%2C%22106670623%22%2C%22104170880%22%2C%22104305776%22%2C%22101165590%22%2C%22103350119%22%2C%22101728296%22%2C%22102890719%22%2C%22101452733%22%2C%22103644278%22%5D&keywords=" + search_param + "&network=%5B%22S%22%5D&origin=FACETED_SEARCH&sid=1e7"
 
 browser = webdriver.Edge("msedgedriver.exe")
