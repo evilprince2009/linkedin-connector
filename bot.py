@@ -27,6 +27,8 @@ time.sleep(2)
 buttons = browser.find_elements_by_tag_name("button")
 connect_buttons = [btn for btn in buttons if btn.text == "Connect"]
 
+counter = 0
+
 for btn in connect_buttons:
     browser.execute_script("arguments[0].click();", btn)
     time.sleep(2)
@@ -35,3 +37,6 @@ for btn in connect_buttons:
     dismiss = browser.find_element_by_xpath("//button[@aria-label='Dismiss']")
     browser.execute_script("arguments[0].click();", dismiss)
     time.sleep(2)
+    counter += 1
+    if counter % 5 == 0:
+        time.sleep(5)
