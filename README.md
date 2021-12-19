@@ -27,6 +27,7 @@ Follow these steps below to run this
 mail = "your_nice_username"
 key = "your_secret_pass"
 search_param = "search_term"
+pages_upto = 5
 ```
 
 - Having Python installed on your machine, run ```pip install selenium``` on terminal.
