@@ -1,7 +1,9 @@
 # LinkedIn Connector
+
 A simple LinkedIn Bot that sends connection requests to people appear on specific search result.
 
 ## Made using
+
 - Python
 - Selenium
 - Edge Browser
@@ -23,12 +25,10 @@ Follow these steps below to run this
 
 - Fill these fields with proper credentials and parameters inside ```bot.py``` file.
 
-```
-mail = "your_nice_username"
+``` mail = "your_nice_username"
 key = "your_secret_pass"
 search_param = "search_term"
-pages_upto = 5
-```
+pages_upto = 5 ```
 
 - Having Python installed on your machine, run ```pip install selenium``` on terminal.
 
